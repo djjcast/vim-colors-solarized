@@ -970,6 +970,14 @@ exe "hi! pandocMetadata"                 .s:fg_blue   .s:bg_none   .s:fmt_bold
 hi! link pandocMetadataTitle             pandocMetadata
 
 "}}}
+" EasyMotion highlighting "{{{
+" ---------------------------------------------------------------------
+hi link EasyMotionShade Comment
+hi link EasyMotionIncCursor Cursor
+hi link EasyMotionTarget IncSearch
+hi link EasyMotionTarget2First Search
+hi link EasyMotionTarget2Second Search
+"}}}
 " Utility autocommand "{{{
 " ---------------------------------------------------------------------
 " In cases where Solarized is initialized inside a terminal vim session and 
